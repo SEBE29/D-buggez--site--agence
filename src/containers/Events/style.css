@@ -1,0 +1,22 @@
+.SelectTitle {
+  color: white;
+}
+
+.Pagination a {
+  margin: 0 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+}
+
+.Pagination a.active {
+  background-color: #5b32ff;
+  color: white;
+  border-color: #5b32ff;
+}
+
+.Pagination a:hover {
+  background-color: #ddd;
+}
